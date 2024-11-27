@@ -1,0 +1,169 @@
+/*=======================================
+	root・body
+=======================================*/
+html, body, #app{ 
+  height: 100%;
+} 
+html {
+  font-size: 62.5%;
+}
+body {
+  background: $color_utility_type01;
+  font-family: 'Noto Sans JP','Noto Sans Japanese', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: $color_utility_type02;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  margin: 0;
+}
+
+@-moz-document url-prefix() {
+  @media print {
+    body{
+      width: 1000px;
+      overflow: visible !important;
+      transform-origin: 0 0;
+      transform: scale(0.67);
+    }
+  }
+} 
+
+/*=======================================
+	margin・padding・border-boxの初期化
+=======================================*/
+body,
+div,
+section,
+aside,
+header,
+footer,
+nav,
+main,
+pre,
+p,
+a,
+img,
+figure,
+picture,
+button,
+form,
+fieldset,
+input,
+textarea,
+select,
+option,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+th,
+td,
+embed,
+object {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/*=======================================
+	img
+=======================================*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*=======================================
+	ul,ol
+=======================================*/
+ul,
+ol {
+  list-style: none;
+}
+
+/*=======================================
+	a,button
+=======================================*/
+a,button {
+  @include hoverEffect;
+}
+
+/*=======================================
+	selection
+=======================================*/
+::selection {
+  background-color: $color_utility_type06;
+  color: $color_utility_type02;
+}
+
+/*=======================================
+	印刷用
+=======================================*/
+.print__inside{
+  break-inside: avoid-column !important;
+}
+.print__newLine{
+  break-before: page !important;
+}
+
+.printInsideFirefoxOnly{
+  @-moz-document url-prefix() {
+    @media print {
+      break-inside: avoid-column !important;
+      overflow: auto !important;
+    }
+  }
+}
+
+.printNewLineFirefoxOnly{
+  @-moz-document url-prefix() {
+    @media print {
+      break-before: page !important;
+    }
+  }
+}
+
+// 公開期限過ぎたページ用
+#page__invalid{
+  #app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .l-header {
+    padding: 20px 0 0 0;
+  }
+  .l-main{
+    padding: 30px 0 0 0;
+  }
+  .l-footer{
+    margin-top: 0;
+  }
+}
+
+@media print {
+  .printFitInRange{
+    width: 1200px;
+    zoom: 0.8;
+  }
+}

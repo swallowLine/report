@@ -1,0 +1,654 @@
+{
+  "info": [
+    {
+      "key": "クワガタ",
+      "value": 21,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "質問",
+      "value": 12,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "大きい",
+      "value": 12,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "たくさん",
+      "value": 10,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "楽しい",
+      "value": 10,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "知る",
+      "value": 10,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "角",
+      "value": 8,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "昆虫",
+      "value": 8,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "聞く",
+      "value": 8,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "興味",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "自分",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "クワガタムシ",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "面白い",
+      "value": 6,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "講義",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "答える",
+      "value": 4,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "研究",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "お話",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "発達",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "嬉しい",
+      "value": 4,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "生物",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "多い",
+      "value": 4,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "顎",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "話",
+      "value": 4,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "知識",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "樹液",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "木",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "さす",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "カブトムシ",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "捕まえる",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "説明",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "講習",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "メス",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "モテ",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "理由",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "私",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "見る",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "雌雄",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "詳しい",
+      "value": 2,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "先生",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "聞ける",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "湧く",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "良い",
+      "value": 2,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "知れる",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "頃",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "機会",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "オス",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "他",
+      "value": 2,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "飛ぶ",
+      "value": 2,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "卒業",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "時代",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "今",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "場面",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "驚く",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "取り",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "高い",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "見つかる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "育つ",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "楽しみ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "動画",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "最初",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "選ぶ",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "気",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "身近",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "限界",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "確率",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "豆",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "残る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "テーマ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "印象",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "内容",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "納得",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "時",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "受講",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "遺伝子",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "有害",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "群",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "個体",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "生息",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "島",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "久々",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "淘汰",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "決める",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "外敵",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "頑張る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "所",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "多様",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "今回",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ごと",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "決め手",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "巨大",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ぇ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "吸う",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "すげる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "ムシる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "時間",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ロマン",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "かたる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "アゴ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "狙う",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "興味深い",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "なくなる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "長い",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "虫",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "よい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "生態",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "お願い",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "みたい",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "好き",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "いかる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "増える",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "授業",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "今日",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "取る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "小さい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "体",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "染色",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "カラス",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "回答",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "意識",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "苦手",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "触れ合う",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "返答",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "うれしい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "関心",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "度",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "高まる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "最近",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ころ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "小学生",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "スズキ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    }
+  ]
+}

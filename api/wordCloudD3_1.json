@@ -1,0 +1,754 @@
+{
+  "info": [
+    {
+      "key": "スイッチ",
+      "value": 21,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "遺伝子",
+      "value": 19,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "大きい",
+      "value": 16,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "メス",
+      "value": 15,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "クワガタ",
+      "value": 15,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "クワガタムシ",
+      "value": 15,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "オス",
+      "value": 12,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "違う",
+      "value": 9,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "個体",
+      "value": 9,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "動画",
+      "value": 9,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "面白い",
+      "value": 9,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "異なる",
+      "value": 9,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "知る",
+      "value": 9,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "講義",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "興味深い",
+      "value": 6,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "雌",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "見る",
+      "value": 6,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "ところ",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "良い",
+      "value": 6,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "不全",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "生物",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "研究",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "OFF",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "おもしろい",
+      "value": 6,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "気",
+      "value": 6,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "詳しい",
+      "value": 3,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "生まれる",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "原因",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ON",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "体",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "雄",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "内容",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "違い",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "環境",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "育つ",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "とこ",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "聞ける",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "雌雄",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "カブトムシ",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "好き",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "続ける",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "的",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "昆虫",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "飼育",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "自分",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "みる",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "起こす",
+      "value": 3,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "関心",
+      "value": 3,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ゲノム",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "さまざま",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "仕組み",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "引き起こす",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "質問",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "顎",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "よい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "後翅",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "翅",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "上",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "愛嬌",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "インラインブリード",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "普通",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "選ぶ",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "羽化",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "破壊",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "せる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "所",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "楽しい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "種",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "かける",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "時間",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "必要",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "見つける",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "方法",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "それら",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "制御",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "簡単",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "先生",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "驚く",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "たくさん",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "餌",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "謎",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "友達",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "始める",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "今回",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "嬉しい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "目",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "普段",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "形",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "オフ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "理解",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "意味",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "タイトル",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "聞く",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "家族",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "量",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "質",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "栄養",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "深まる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "面",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "学",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "僕",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "今",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "魅力",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "似る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "植物",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "場合",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "興味",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "持てる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "一番",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "出る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "講義ライブ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "聞き入る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "うまい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "話す",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "持つ",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "疑問",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "部分",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "楽しみ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "他",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "耳",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "しれる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "関係",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "箇所",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "種類",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "書く",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "同体",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "モザイク",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "成長",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "稀",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "動物",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "クワ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "カブ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "初耳",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "話",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "報告",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "紹介",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "見える",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "ノコギリクワガタ",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "多い",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "行く",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "取る",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "中",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "触れる",
+      "value": 1,
+      "partOfSpeechKbn": 2
+    },
+    {
+      "key": "生き物",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "角",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "頃",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "ちっちゃい",
+      "value": 1,
+      "partOfSpeechKbn": 3
+    },
+    {
+      "key": "身近",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "不思議",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    },
+    {
+      "key": "様々",
+      "value": 1,
+      "partOfSpeechKbn": 1
+    }
+  ]
+}

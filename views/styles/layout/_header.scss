@@ -1,0 +1,46 @@
+/*=======================================
+	header
+=======================================*/
+.l-header{
+  z-index: $z-ten; background:$color_utility_type01; flex-shrink:0;
+  padding: 80px 0 0 0;
+  &__inner{
+    max-width:1200px; position: relative; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+    @media print {
+      width: 1000px !important; max-width: 100% !important;
+    }
+    @-moz-document url-prefix() {
+      @media print {
+        width: 1000px;
+      }
+    }
+    h1{
+      a{
+        display: flex; align-items: flex-end;
+        .l-header__logo{ 
+          margin:0; height: 34px;
+          @media print {
+            width: 230px !important; height: auto !important;
+          }
+        }
+        .l-header__season{
+          font-family:Oswald; font-size:2.6rem; font-weight:700; color: $color_utility_type03;
+          display:block; padding:0; margin-left:6px; line-height:1;
+          @media print {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    h2{
+      font-size: 2.2rem; max-width: 732px; text-align: justify;
+      @media print {
+        width: auto !important; font-size: 21px;
+      }
+      span{
+        display: block;
+      }
+    }
+  }
+}

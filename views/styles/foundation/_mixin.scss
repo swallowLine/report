@@ -1,0 +1,11 @@
+/*=======================================
+	hover
+=======================================*/
+@mixin hoverEffect{
+  transition: opacity 0.3s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+} 

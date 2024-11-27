@@ -1,0 +1,662 @@
+/*=======================================
+	main
+=======================================*/
+.l-main {
+  max-width: 1200px; 
+  margin: 0 auto; padding: 36px 0 40px 0;
+  @media print {
+    width: 1000px !important;
+  }
+  &.printFitInRangeMain{
+    @media print {
+      padding: 36px 0 36px 0;
+    }
+  }
+  &__heading{
+    display: flex; justify-content: space-between; align-items: center;
+    border: 1px solid $color_utility_type03; height: 80px;
+    @media print {
+      width: 100%; 
+    }
+    @-moz-document url-prefix() {
+      @media print {
+        width: 1000px;
+        border: 2px solid $color_utility_type03 !important;
+      }
+    }
+    .l-main__title{
+      color: $color_utility_type01; background-color: $color_utility_type03;
+      width: 936px; display: inline-block;
+      font-size: 2.8rem; font-weight: 700; line-height: 80px; letter-spacing: 0.08em;
+      height: 80px; padding: 0 32px;
+      @media print {
+        font-size: 28px; width: 100%; 
+      }
+      @-moz-document url-prefix() {
+        @media print {
+          width: 760px;
+        }
+      }
+    }
+    div{
+      width: 264px; padding: 0 40px;
+      @-moz-document url-prefix() {
+        @media print {
+          width: calc( 100% - 760px );
+        }
+      }
+      .l-main__frompage{
+        display: block; width: 184px;
+        @-moz-document url-prefix() {
+          @media print {
+            width: calc( 184px * 0.86 );
+          }
+        }
+      }
+    }
+  }
+  &__published{
+    text-align: right; margin-top: 12px;
+    @-moz-document url-prefix() {
+      @media print {
+        width: 1000px;
+      }
+    }
+  }
+  &__thanks{
+    margin-top: 16px; 
+    font-size: 1.8rem; line-height: 2.0;
+    @media print {
+      margin-top: 0; 
+      font-size: 16px; line-height: 1.6;
+    }
+  }
+  &__twoColums{
+    display: flex; justify-content: space-between; 
+    @media print {
+      width: 100% !important;
+    }
+    @-moz-document url-prefix() {
+      @media print {
+        width: 1000px;
+      }
+    }
+    >div{
+      width: 45%;
+    }
+    .-Separate{
+      position: relative;
+    }
+  }
+
+  .canvasPrint{
+    @media print {
+      width: 100% !important; 
+      height: 86px !important;
+    }
+  }
+  .canvasQuestionPrint{
+    @media print {
+      width: 100% !important; 
+    }
+  }
+
+  .missionWrapper{
+    border: 2px solid $color_utility_type07;
+    border-radius: 8px;
+    padding: 22px 20px 20px; position: relative; margin-top: 40px;
+  }
+  .missionImage{
+    width: 120px; 
+    position: absolute; top: -23px; left: 0;
+  }
+  .missionTeacherFrom{
+    font-size: 1.8rem; 
+    color: $color_utility_type07; margin-top: 2px; font-weight: 700;
+  }
+  .wordCloudExplain{
+    margin-bottom: 30px;
+  }
+
+  &__subHeading{
+    font-size: 2.6rem; font-weight: 700; padding: 10px 32px 10px 20px; margin-top: 66px;
+    letter-spacing: 0.08em; text-align: left;
+    color: $color_utility_type01; background-color: $color_utility_type03;
+    @media print{
+      margin-top: 66px; 
+    }
+    &.-Center{
+      text-align: center;
+    }
+    &.-Message{
+      margin-top: 88px;
+      @media print{
+        margin-top: 48px;
+      }
+    }
+    &.-IsWordCloud{
+      margin-bottom: 20px;
+    }
+    &.-Toggle{
+      cursor: pointer;
+      transition: opacity 0.3s ease-out;
+      display: flex; justify-content: space-between; align-items: center;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &.-StateOpen{
+      .-Close{
+        &::before{
+          transform: rotate(180deg); 
+        }
+      }
+    }
+    .-Close{
+      font-size: 1.6rem;
+      position: relative;
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: -7px;
+        right: -16px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 14px 7px 0 7px;
+        transition-duration: .3s;
+        border-color: $color_utility_type01 transparent transparent transparent;
+        transition: opacity 0.3s ease-out;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+    .l-main__twoColums &{
+      text-align: center; padding: 10px 0; 
+    }
+  }
+  &__ratioHeading{
+    font-size: 2.4rem;font-weight: 700; margin-top: 30px;
+    letter-spacing: 0.08em;
+    color: $color_utility_type03;
+  }
+  &__table{
+    width: 100%; margin-top: 8px; font-weight: 500;
+    thead{
+      .-Sum{
+        padding: 8px 8px; border-right:1px solid $color_utility_type01; 
+        z-index: $z-minus;
+        color: $color_utility_type01; background-color: $color_utility_type03; text-align: center; vertical-align: middle;
+        @-moz-document url-prefix() {
+          @media print {
+            border-right:2px solid $color_utility_type01 !important;
+          }
+        }
+        +.-BrDown{
+          border-bottom: 1px solid $color_utility_type01 !important; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-bottom: 2px solid $color_utility_type01 !important;
+            }
+          }
+        }
+      }
+      .-BrDown{
+        padding: 8px 8px;
+        color: $color_utility_type01; background-color: $color_utility_type05; text-align: center;
+        &:first-child{
+          border-right: 1px solid $color_utility_type01 !important; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-right: 2px solid $color_utility_type01 !important; 
+              z-index: $z-minus;
+            }
+          }
+        }
+        +.-BrDown{
+          border-left: 1px solid $color_utility_type01 !important; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-left: 2px solid $color_utility_type01 !important;
+            }
+          }
+        }
+      }
+    }
+    tbody{
+      border-left: 1px solid $color_utility_type04;
+      border-right: 1px solid $color_utility_type04;
+      border-bottom: 1px solid $color_utility_type04;
+      @-moz-document url-prefix() {
+        @media print {
+          border-left: 2px solid $color_utility_type04 !important;
+          border-right: 2px solid $color_utility_type04 !important;
+          border-bottom: 1.5px solid $color_utility_type04 !important;
+        }
+      }
+      td{
+        padding: 8px 8px; text-align: center;
+        +td{
+          border-left: 1px solid $color_utility_type04;
+          @-moz-document url-prefix() {
+            @media print {
+              border-left: 2px solid $color_utility_type04 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__tableInterest{
+    width: 100%; table-layout: fixed;
+    margin-top: 24px; margin-bottom: 32px;
+    thead{
+      .-BrDown{
+        padding: 12px 8px;
+        color: $color_utility_type01; background-color: $color_utility_type05; text-align: center;
+        &:first-child{
+          border-right: 1px solid $color_utility_type01 !important; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-right: 2px solid $color_utility_type01 !important;
+            }
+          }
+        }
+        +.-BrDown{
+          border-left: 1px solid $color_utility_type01 !important; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-left: 2px solid $color_utility_type01 !important;
+            }
+          }
+        }
+      }
+    }
+    tbody{
+      border-left: 1px solid $color_utility_type04;
+      border-right: 1px solid $color_utility_type04;
+      border-bottom: 1px solid $color_utility_type04;
+      @-moz-document url-prefix() {
+        @media print {
+          border-left: 2px solid $color_utility_type04 !important;
+          border-right: 2px solid $color_utility_type04 !important;
+          border-bottom: 2px solid $color_utility_type04 !important;
+        }
+      }
+      td{
+        padding: 12px 8px; text-align: center;
+        +td{
+          border-left: 1px solid $color_utility_type04; 
+          z-index: $z-minus;
+          @-moz-document url-prefix() {
+            @media print {
+              border-left: 2px solid $color_utility_type04 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__ratioSupplement{
+    display: flex; align-items: center;
+    position: absolute; top: 6px; right: 0;
+    li{
+      + li{
+        margin-left: 16px;
+      }
+      &::before{
+        content:  ""; width: 16px; height: 16px; margin: -2px 4px 0 0;
+        display: inline-block; vertical-align: middle;
+      }
+      &:nth-child(1){
+        &::before{
+          background-color: $color_new_chart1;
+        }
+      }
+      &:nth-child(2){
+        &::before{
+          background-color: $color_new_chart4;
+        }
+      }
+      &:nth-child(3){
+        &::before{
+          background-color: $color_new_chart5;
+        }
+      }
+    }
+  }
+  &__interest{
+    display: flex; justify-content: space-between; margin-top: 8px;
+    dt{
+      width: 30px; font-size: 2.2rem; font-weight: 700; line-height: 1;
+    }
+    dd{
+      font-weight: 500;
+      width: calc( 100% - 30px ); font-size: 1.6rem; letter-spacing: 0.04em; 
+      height: auto; text-align: justify; margin-bottom: 14px;
+      &.-Question{
+        @media print {
+          height: auto; font-size: 1.6rem; letter-spacing: 0.04em; margin-bottom: 6px
+        }
+      }
+    }
+  }
+  &__ratioInterest{
+    display: flex; margin-top: 16px;
+    li{
+      + li{
+        margin-left: 16px;
+      }
+      &::before{
+        content:  ""; width: 16px; height: 16px; margin: -2px 4px 0 0;
+        display: inline-block; vertical-align: middle;
+      }
+      &:nth-child(1){
+        &::before{
+          background-color: $color_new_chart4;
+        }
+      }
+      &:nth-child(2){
+        &::before{
+          background-color: $color_new_chart3;
+        }
+      }
+      &:nth-child(3){
+        &::before{
+          background-color: $color_new_chart1;
+        }
+      }
+      &:nth-child(4){
+        &::before{
+          background-color: $color_new_chart5;
+        }
+      }
+    }
+  }
+  &__list{
+    margin: 24px 0 48px;
+    font-size: 1.8rem; line-height: 1.6; letter-spacing: 0.08em;
+    @-moz-document url-prefix() {
+      @media print {
+        transform-origin: 0 0;
+        transform: scale(1.5);
+        font-size: 1.5rem;
+        margin: 24px 0 0px;
+      }
+    }
+    li{
+      display: inline-block; padding-left: 0.8em; text-indent: -0.8em;
+      width: 100%;
+      &:not(:last-child){
+        margin-bottom: 30px;
+        @-moz-document url-prefix() {
+          @media print {
+            margin-bottom: 30px;
+          }
+        }
+      }
+      &::before{
+        content:  ""; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px;
+        display: inline-block; background-color: $color_utility_type03;
+      }
+      span{
+        display: block; font-size: 1.6rem; margin-left: 0.8em;
+      }
+      &.-Nolist{
+        font-size: 1.6rem;
+        &::before{
+          content:  none; 
+        }
+      }
+    }
+  }
+
+  // canvas関連
+  .canvasWrapper{
+    height: 100%; 
+  }
+  // 講義ライブ質問対応・研究室訪問のチャート
+  .canvasChartFlexWrapper{
+    margin-top: 32px; 
+    display: flex; align-items: center; justify-content: center;
+    > div.-CenterContent{
+      display: flex; align-items: center;
+    }
+    canvas{
+      cursor: pointer;
+    }
+    @media print{
+      .canvasCharList{
+        padding-left: 20px!important;
+      }
+    }
+    .canvasCharList{
+      display: flex; flex-wrap: wrap;
+      padding-left: 24px; width: 200px;
+      li{
+        line-height: 2.2;
+        &:nth-child(odd){
+          width: 100px;
+        }
+        &::before{
+          content:  ""; width: 16px; height: 16px; margin: -2px 4px 0 0;
+          display: inline-block; vertical-align: middle;
+        }
+        &:nth-child(1){
+          &::before{
+            background-color: $color_new_chart1;
+          }
+        }
+        &:nth-child(2){
+          &::before{
+            background-color: $color_new_chart4;
+          }
+        }
+        &:nth-child(3){
+          &::before{
+            background-color: $color_new_chart2;
+          }
+        }
+        &:nth-child(4){
+          &::before{
+            background-color: $color_new_chart5;
+          }
+        }
+        &:nth-child(5){
+          &::before{
+            background-color: $color_new_chart3;
+          }
+        }
+      }
+    }
+  }
+  // オンライン・学びのチャート
+  // .canvasChartWrapper{
+  //   width: 320px !important; margin: 40px auto 0 auto !important; position: relative;
+  //   canvas{
+  //     cursor: pointer;
+  //   }
+  // }
+  // .canvasCharOnlinerList{
+  //   display: flex; margin: 32px 0 0;
+  //   li{
+  //     + li{
+  //       margin-left: 40px;
+  //     }
+  //     &::before{
+  //       content:  ""; width: 16px; height: 16px; margin: -2px 4px 0 0;
+  //       display: inline-block; vertical-align: middle;
+  //     }
+  //     &:nth-child(1){
+  //       &::before{
+  //         background-color: $color_new_chart1;
+  //       }
+  //     }
+  //     &:nth-child(2){
+  //       &::before{
+  //         background-color: $color_new_chart2;
+  //       }
+  //     }
+  //     &:nth-child(3){
+  //       &::before{
+  //         background-color: $color_new_chart3;
+  //       }
+  //     }
+  //     &:nth-child(4){
+  //       &::before{
+  //         background-color: $color_new_chart4;
+  //       }
+  //     }
+  //     &:nth-child(5){
+  //       &::before{
+  //         background-color: $color_new_chart5;
+  //       }
+  //     }
+  //   }
+  // }
+  @media print{
+    .canvasCharOnlinerList{
+      li{
+        + li{
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+  // 公開期限
+  &__displayEnd{
+    margin-top: 120px;
+    display: flex; align-items: center; justify-content: center; 
+    > div {
+      display: flex;
+    }
+    span {
+      font-size: 2.8rem;
+      display: block;
+      animation-name: cross-fade-blur;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      @for $i from 1 through 28 {
+        &:nth-child(#{$i}) {
+          animation-delay: $i * 0.04s;
+        }
+      }
+    }
+  }
+}
+
+/* 講義ライブ質問対応・研究室訪問のチャート合計数表示用 */
+.chartTotal{
+  width: 260px; height: 260px; margin-top: -260px;
+  z-index: $z-minus; font-weight: 500;
+  display: flex; align-items: center; justify-content: center;
+  .chartTotalNumber {
+    color: $color_utility_type02;
+    font-size: 3.0rem; 
+    .chartMei {
+      font-size: 2.6rem;
+    }
+  }
+} 
+
+/* オンライン・学びのチャート合計数表示用 */
+.chartLargeTotal{
+  width: 320px; height: 320px; margin-top: -320px;
+  z-index: $z-minus;
+  display: flex; align-items: center; justify-content: center;
+  .chartTotalNumber {
+    color: $color_utility_type02;
+    font-size: 3.8rem;
+    .chartMei {
+      font-size: 3.0rem;
+    }
+  }
+}
+
+.chartBarBox{
+  font-size: 1.8rem;
+  color: $color_utility_type01;
+  position: absolute; top: 34px;
+  @media print{
+    top: 26px; min-width: 3em;
+  }
+  .printFitInRangeMain &{
+    @media print{
+      top: 36px; min-width: 3em;
+    }
+  }
+  span{
+    display: block; width: 100%; font-weight: 500; 
+    min-width: 2em;
+  }
+}
+
+.chartBarBoxLast{
+  font-size: 1.8rem;
+  color: $color_utility_type02;
+  position: absolute; top: 34px;
+  @media print{
+    top: 66px; min-width: 3em; left: auto!important; right: -28px !important;
+  }
+  .printFitInRangeMain &{
+    @media print{
+      top: 80px;
+    }
+  }
+  span{
+    display: block; width: 100%;
+    min-width: 3em;
+  }
+}
+
+.chartBarBoxLastPrintRight{
+  font-size: 1.8rem;
+  color: $color_utility_type02;
+  position: absolute; top: 34px;
+  @media print{
+    top: 26px; min-width: 3em; left: auto!important; right: -56px !important;
+  }
+  span{
+    display: block; width: 100%;
+    min-width: 3em;
+  }
+}
+
+
+
+@keyframes cross-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 3rem, 0) rotate3d(0.25, -1, 0, 66.6deg);
+  }
+  20%,
+  60% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, -3rem, 0) rotate3d(-0.25, 1, 0, 66.6deg);
+  }
+}
+
+// ワードクラウド
+// .chartWordCloudWrapper{
+//   @media print {
+//     canvas{
+//       width: 1000px !important;
+//     }
+//   }
+// }

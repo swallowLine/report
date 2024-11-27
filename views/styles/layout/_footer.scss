@@ -1,0 +1,39 @@
+/*=======================================
+	footer
+=======================================*/
+.thankYouVeryMuchForThisTime{
+  max-width: 1200px; position: relative; margin: 0 auto;
+  display: flex; justify-content: space-between; flex-wrap: wrap; align-items: flex-end; 
+  font-size: 1.8rem;
+  @-moz-document url-prefix() {
+    @media print {
+      margin-top: 200px;
+      max-width: 100%;
+      width: 1200px;
+      transform-origin: 0 0;
+      transform: scale(0.83);
+      font-size: 2.6rem;
+    }
+  }
+}
+
+.l-footer{
+  position: sticky; 
+  top: 100vh; 
+  padding: 20px 0; 
+  margin-top: 80px; 
+  background-color: $color_utility_type03; color: $color_utility_type01;
+  @-moz-document url-prefix() {
+    @media print {
+      width: 1000px;
+      display: block;
+    }
+  }
+  address{
+    max-width:1200px; position: relative; margin: 0 auto;
+    text-align: center; font-size: 1.4rem; letter-spacing: 0.06em;
+    span{
+      display: inline-block; line-height: 1.8; 
+    }
+  }
+}
